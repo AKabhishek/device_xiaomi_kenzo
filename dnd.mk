@@ -21,6 +21,9 @@ $(call inherit-product, device/xiaomi/kenzo/full_kenzo.mk)
 # Inherit some common AOS stuff.
 $(call inherit-product, vendor/dnd/config/common_full_phone.mk)
 
+# Magisk
+WITH_ROOT=true
+
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
