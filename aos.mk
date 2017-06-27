@@ -24,6 +24,9 @@ $(call inherit-product, vendor/aos/config/common_full_phone.mk)
 # Magisk
 WITH_ROOT=true
 
+# AudioFX
+WITH_AUDIOFX=true
+
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
